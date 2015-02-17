@@ -8,16 +8,16 @@ name := projectName
 
 sbtVersion in Global := "0.13.0"
 
-scalaVersion in Global := "2.11.2"
+scalaVersion in Global := "2.11.5"
 
 scalacOptions := Seq("-feature", "-deprecation")
 
 libraryDependencies ++= Seq(
   "com.mchange" % "c3p0" % "0.9.5-pre10", 
   "com.mchange" %% "mlog-scala" % "0.3.4", 
-  "com.typesafe.play" %% "play-jdbc" % "2.3.4",
-  "org.scalaz.stream" %% "scalaz-stream" % "0.5a",
-  "org.specs2" %% "specs2" % "2.4.4"
+  "com.typesafe.play" %% "play-jdbc" % "2.3.8",
+  "org.scalaz.stream" %% "scalaz-stream" % "0.6a",
+  "org.specs2" %% "specs2" % "2.4.14"
 )
 
 resolvers ++= Seq(
